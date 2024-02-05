@@ -12,7 +12,7 @@ firebase_admin.initialize_app(cred, {
     'databaseURL': "https://faceattendancesystem-77784-default-rtdb.firebaseio.com/",
     'storageBucket': "faceattendancesystem-77784.appspot.com"
 })
- 
+
 # Importing student images
 folderPath = 'Images'
 pathList = os.listdir(folderPath)

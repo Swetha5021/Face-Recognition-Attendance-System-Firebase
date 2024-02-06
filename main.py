@@ -11,7 +11,7 @@ from firebase_admin import credentials
 from firebase_admin import db
 from firebase_admin import storage
 import numpy as np
-
+ 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
     'databaseURL': "https://faceattendancesystem-77784-default-rtdb.firebaseio.com/",

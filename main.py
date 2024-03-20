@@ -18,7 +18,6 @@ firebase_admin.initialize_app(cred, {
     'storageBucket': "faceattendancesystem-77784.appspot.com"
 })  
 
-
 bucket = storage.bucket()
 
 cap = cv2.VideoCapture(0)

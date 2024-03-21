@@ -29,7 +29,6 @@ for path in pathList:
     blob = bucket.blob(fileName)
     blob.upload_from_filename(fileName)
 
-
 print(studentIds)
 
 def findEncodings(imagesList):

@@ -47,5 +47,4 @@ print("Encoding complete")
 file = open("EncodeFile.p",'wb')
 pickle.dump(encodeListKnownWithIds,file)
 file.close()
-
 print("file saved")
